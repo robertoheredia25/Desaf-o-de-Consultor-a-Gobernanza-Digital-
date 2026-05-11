@@ -10,3 +10,4 @@ de unas 2 horas al mes por trabajador lo que multiplicado por 25 son 50 euros al
 
 
 # ¿El comando de backup es sintácticamente correcto?
+No, no es correcto, el comando crrecto es "pg_dump.exe -h localhost -p 5432 -U postgres -F c -v -d {nombre_de_tu_db} -f {ruta_donde_se_aloja_el_archivo}" lo que es muy largo y complicdo de memorizar , en otras versiones existe este comando "pg_dump -U <usuario> <nombre_bd>", pero OJO! no tienes que hacerlo en cualquier sitio, debes hacerlo en el cmd de Windows, si no te dará error, Según un foro de Internet [Visita el foro](https://es.stackoverflow.com/questions/5195/c%C3%B3mo-hacer-un-backup-de-una-base-de-datos-postgres-en-windows)
